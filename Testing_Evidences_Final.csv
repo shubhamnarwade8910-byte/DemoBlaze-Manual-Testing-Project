@@ -1,0 +1,11 @@
+Test Case ID,Test Scenario Description,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_01,Verify user login functionality.,Login,"Enter valid username and password, click Login.",User should log in successfully.,User logged in successfully.,Pass
+TC_02,Verify user registration functionality.,Sign Up,"Enter username and password, click Sign Up.",Account should be created.,Account created successfully.,Pass
+TC_03,Verify product category selection.,Category,Click Phones category.,Selected category products should display.,Selected category products displayed.,Pass
+TC_04,Verify product details display.,Product Details,Select a product and open its details.,Product details should display correctly.,Product details displayed.,Pass
+TC_05,Verify Add to Cart functionality.,Add to Cart,Select a product and click Add to Cart.,Product should be added to cart.,Product added to cart.,Pass
+TC_06,Verify Delete Product from Cart functionality.,Delete from Cart,Open Cart and click Delete.,Product should be removed from cart.,Product removed from cart.,Pass
+TC_07,Verify total price calculation.,Total Price,Add products and verify total price.,Total price should update correctly.,Total price updated correctly.,Pass
+TC_08,Verify purchase form validation.,Purchase Validation,Open Place Order and submit empty form.,Required fields should show validation messages.,Purchase completed with blank details.,Fail
+TC_09,Verify successful order placement.,Order Placement,Enter purchase details and click Purchase.,Order confirmation should display.,Order confirmation displayed.,Pass
+TC_10,Verify logout functionality.,Logout,Click Log out.,User should log out successfully.,User logged out successfully.,Pass
